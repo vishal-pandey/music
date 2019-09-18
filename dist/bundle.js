@@ -28,7 +28,7 @@ window.onload = function () {
 				document.querySelector("." + i).insertAdjacentHTML('beforeEnd', '\
 				<span class="single-note-container">\
 					<video name="media" preload="none">\
-						<source src="http://127.0.0.1:8080/' + url + '" type="audio/x-wav">\
+						<source src="./' + url + '" type="audio/x-wav">\
 					</video>\
 					<span class="note-name">' + j[0] + j[1] + '</span>\
 				</span>');
